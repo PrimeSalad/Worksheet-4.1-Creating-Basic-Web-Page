@@ -1,0 +1,123 @@
+body{
+    text-align: center;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid #2176A5;
+    padding: 20px;
+    
+}
+h1{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bolder;
+    background: linear-gradient(90deg,#074173,#074173);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+img{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+
+}
+h2{
+    text-align: center;
+}
+h2 a{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    color: #074173;
+}
+ 
+.profile-link:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    background: linear-gradient(90deg, rgba(179, 184, 223, 0.5) 16%, rgba(154, 169, 238, 0.5) 100%);
+    border: 2px solid #2176A5;
+    border-radius: 8px;
+}
+h3{
+    text-align: left;
+    font-family: Arial;
+    background-color: #074173;
+    padding: 5px;
+    font-style: italic;
+    color: white;
+}
+p{
+    font-family: sans-serif;
+    text-align: justify;
+    color: #074173;
+    margin: 20px 0 50px 0;
+    letter-spacing: 1px;
+    text-indent: 50px;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #074173;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+th{
+    background: #074173;
+    color: #ffff;
+    border: 1px solid #074173;
+}
+td {
+    border-collapse: collapse;
+    border: 1px solid #074173;
+    text-align: center;
+    color: #074173;
+
+}
+ul{
+    margin-top: 10px;
+    border-collapse: collapse;
+    text-align: left;
+    color: #074173;
+    padding: 5px;;
+}
+h4{
+    text-align: left;
+    font-family: Arial;
+    background-color: #074173;
+    padding: 5px;
+    font-style: italic;
+    color: white;
+}
+ol{
+    margin-top: 10px;
+    border-collapse: collapse;
+    text-align: left;
+    color: #074173;
+}
+hr{
+    text-align: center;
+    width: 100%;
+    height: 1px;
+    background-color:#2176A5;
+    border-color: #2176A5;
+}
+ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ul li i {
+    margin-right: 5px;
+}
+ol li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ol li i {
+    margin-right: 5px;
+}
